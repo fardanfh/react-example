@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.container{
+  box-sizing: border-box;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.body-card{
+  padding: 20px;
+}
+
+.img-card{
+  width: 450px;
+  border-radius: 10px;
+}
+
+.items{
+  border-radius: 10px;
+  width: max-content;
+  text-align: left;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.btn{
+  padding: 10px 25px 10px 25px;
+  border: none;
+  border-radius: 10px;
+  background-color: #08D9D6;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
